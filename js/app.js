@@ -1,9 +1,9 @@
-var APP = {
+var KICKSTART = {
 	VariableOne: false,
 	VariableTwo: false,
 	Init: function() {
 		
-		APP.BindUIActions();
+		KICKSTART.BindUIActions();
 		
 	}
 	BindUIActions: function() {
@@ -12,5 +12,5 @@ var APP = {
 };
 
 (function() {
-  APP.Init();
+  KICKSTART.Init();
 })();
