@@ -1,1 +1,4 @@
 .DS_Store
+node_modules
+js/app.min.js
+css/main.min.css
